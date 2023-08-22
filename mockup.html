@@ -79,7 +79,8 @@
 				$(".linklist").slideToggle();
 			});
 			$(".nav-item").click(function(){
-				$("this").toggleClass('active');
+				$(".nav-item.active").removeClass('active');
+				$("this").addClass('active');
 			});
 		});
 	</script>
