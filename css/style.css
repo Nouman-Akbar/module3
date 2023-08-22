@@ -46,7 +46,8 @@ header .navbar{
 }
 .linklist .navbar-nav .nav-item a{
 	width: 100%;
-.linklist .navbar-nav .nav-item:hover{
+}
+.linklist .navbar-nav .nav-item:hover, .linklist .navbar-nav .nav-item.active{
 	background-color: #e6f9ff;
 }
 #main-content .row .box{
